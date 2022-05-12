@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Neonderthaw&family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Photo gallery</title>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="modal">
+      <div class="modal-image-container">
+        <img src="./images/bridge.jpg" alt="bridge" id="1"/>
+        <img src="./images/buckingham-palace.jpg" alt='buckingham-palace', id='2'/>
+        <img src="./images/bus.jpg" alt= 'bus', id= '3' />
+        <img src= './images/London-CBD.jpg' alt= 'London-CBD' id= '4' />
+        <img src= './images/london-eye.jpg' alt= 'London-eye' id= '5' />
+        <img src='./images/telephone.jpg' alt= 'telephone' id= '6' />
+        <img src= './images/Castle-Combe-UK.jpg' alt= 'Castle-Combe' id= '7' />
+        <img src= './images/Jurassic-Coast.jpg' alt= 'Jurassic-Coast' id= '8' />
+        <img src='./images/windsor.jpg' alt='Windsor' id='9'/>
+      </div>
+      <div class="arrows-containter">
+        <button id="close">X</button>
+        <div class="arrows">
+          <button id="prev" class="arrow left"></button>
+          <button id="next" class="arrow right"></button>
+        </div>
+        
+      </div>
+    </div>
+    <h1>Photo gallery</h1>
+    <div class="gallery"></div>
+  </body>
+</html>
